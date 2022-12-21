@@ -32,7 +32,7 @@ const defaultOptions = {
       },
       width: "100%",
       height: 180,
-      offsetY: 8,
+      offsetY: -2.5,
     },
     dataLabels: {
       enabled: false,
@@ -61,8 +61,12 @@ var barOptions = {
     tooltip: {
         enabled: true,
         fillSeriesColor: false,
+        theme: false,
         style: { 
             fontFamily: fontFamily, 
+        },
+        x: {
+            show: false,
         },
         y: {
             formatter: (value) => {
@@ -70,9 +74,6 @@ var barOptions = {
             },
         },
     },
-    tooltip: {
-        theme: "dark",
-      },
     series: [
         {
             name: "This Year",

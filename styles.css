@@ -95,3 +95,7 @@ body .apexcharts-tooltip.apexcharts-theme-light {
         rgba(27, 27, 27, 1)
     );
 }
+
+.apexcharts-tooltip {
+  background: #1c1c1c;
+}
