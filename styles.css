@@ -99,3 +99,11 @@ body .apexcharts-tooltip.apexcharts-theme-light {
 .apexcharts-tooltip {
   background: #1c1c1c;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 380px;
+    padding: 40px;
+  }
+}
